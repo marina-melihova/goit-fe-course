@@ -1,0 +1,197 @@
+body {
+  box-sizing: border-box;
+  letter-spacing: -0.02em;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.page-header {
+  padding-top: 37px;
+  padding-bottom: 90px;
+}
+
+.logo {
+  display: block;
+  float: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #555252;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 300;
+}
+
+.logo::first-letter {
+  color: #1abc9c;
+  font-weight: 700;
+}
+
+.main-menu-list {
+  margin: 0;
+  padding: 0;
+  float: right;
+  list-style: none;
+}
+
+.main-menu-item {
+  float: left;
+  margin-right: 30px;
+}
+
+.main-menu-item:last-of-type {
+  margin-right: 0;
+}
+
+.main-menu-link {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #0f0101;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.main-menu-link:hover {
+  color: #1abc9c;
+}
+
+/* Main */
+
+.section {
+  padding-bottom: 100px;
+}
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #555252;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+/* Featured products */
+
+.featured-products-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.featured-products-item {
+  margin-right: 30px;
+  float: left;
+}
+
+.featured-products-item:nth-of-type(4n) {
+  margin-right: 0;
+}
+
+.product-image-link {
+  display: block;
+  background-color: #e9f0fd;
+}
+
+.product-features {
+  background-color: rgb(50, 50, 50);
+}
+
+.product-title-link {
+  float: left;
+  display: block;
+  padding: 5px 14px;
+  text-decoration: none;
+}
+
+.product-title {
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 800;
+}
+
+.product-price {
+  float: right;
+  padding: 5px 14px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 800;
+  background-color: rgba(255, 255, 255, 0.44);
+}
+
+/* Latest news */
+
+.latest-news-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.latest-news-item {
+  margin-right: 30px;
+  width: 350px;
+  float: left;
+}
+
+.latest-news-item:last-of-type {
+  margin-right: 0;
+}
+.latest-news-list {
+  font-family: "Open Sans", sans-serif;
+  color: #555252;
+  line-height: 26px;
+}
+
+.news-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.news-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.news-link {
+  display: inline-block;
+  padding: 13px 43px;
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 3px;
+  background-color: rgb(78, 198, 171);
+}
