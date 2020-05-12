@@ -16,7 +16,7 @@ img {
 }
 
 .clearfix::after {
-  content: " ";
+  content: ' ';
   display: table;
   clear: both;
 }
@@ -39,14 +39,14 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   color: #555252;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   line-height: 32px;
   font-weight: 300;
 }
 
 .logo::first-letter {
-  color: #1abc9c;
+  color: rgb(26, 188, 156);
   font-weight: 700;
 }
 
@@ -71,30 +71,41 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   color: #0f0101;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 1.2;
   font-weight: 700;
 }
 
 .main-menu-link:hover {
-  color: #1abc9c;
+  color: rgb(26, 188, 156);
 }
 
 /* Main */
 
 .section {
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 
 .section-title {
+  margin: 0;
+  padding-bottom: 90px;
   text-align: center;
   text-transform: uppercase;
   color: #555252;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 48px;
   line-height: 1.2;
   font-weight: 800;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  margin: 25px auto 0;
+  width: 164px;
+  height: 7px;
+  background-color: rgb(26, 188, 156);
 }
 
 /* Featured products */
@@ -107,6 +118,7 @@ img {
 
 .featured-products-item {
   margin-right: 30px;
+  margin-bottom: 30px;
   float: left;
 }
 
@@ -123,6 +135,10 @@ img {
   background-color: rgb(50, 50, 50);
 }
 
+.featured-products-item:hover .product-features {
+  background-color: rgb(26, 188, 156);
+}
+
 .product-title-link {
   float: left;
   display: block;
@@ -134,7 +150,7 @@ img {
   margin: 0;
   color: #fff;
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 32px;
   font-weight: 800;
@@ -144,7 +160,7 @@ img {
   float: right;
   padding: 5px 14px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 32px;
   font-weight: 800;
@@ -160,26 +176,40 @@ img {
 }
 
 .latest-news-item {
-  margin-right: 30px;
   width: 350px;
   float: left;
 }
 
-.latest-news-item:last-of-type {
-  margin-right: 0;
+.latest-news-item:not(:last-of-type) {
+  margin-right: 30px;
 }
+
 .latest-news-list {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #555252;
   line-height: 26px;
 }
 
 .news-title {
+  margin: 0;
+  padding-top: 13px;
+  padding-bottom: 24px;
   font-size: 18px;
   font-weight: 600;
 }
 
+.news-title::after {
+  content: '';
+  display: block;
+  margin-top: 12px;
+  background-color: rgb(78, 198, 171);
+  width: 136px;
+  height: 3px;
+}
+
 .news-text {
+  margin: 0;
+  padding-bottom: 14px;
   font-size: 14px;
   font-weight: 400;
 }
@@ -194,4 +224,9 @@ img {
   font-weight: 300;
   border-radius: 3px;
   background-color: rgb(78, 198, 171);
+}
+
+.news-link:hover,
+.news-link:focus {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
 }
