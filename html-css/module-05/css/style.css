@@ -51,7 +51,6 @@ body {
   display: block;
   float: left;
   text-transform: uppercase;
-  text-decoration: none;
   color: rgb(85, 82, 82);
   font-family: "Roboto", sans-serif;
   font-size: 30px;
@@ -81,7 +80,6 @@ body {
 .main-menu-link {
   display: block;
   text-transform: uppercase;
-  text-decoration: none;
   color: rgb(15, 1, 1);
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -89,7 +87,8 @@ body {
   font-weight: 700;
 }
 
-.main-menu-link:hover {
+.main-menu-link:hover,
+.main-menu-link:focus {
   color: rgb(26, 188, 156);
 }
 
@@ -166,7 +165,8 @@ body {
   cursor: pointer;
 }
 
-.slider-ctrl:hover {
+.slider-ctrl:hover,
+.slider-ctrl:focus {
   background-color: rgba(78, 198, 171, 1);
 }
 
@@ -206,11 +206,6 @@ body {
 }
 
 /* New collection */
-
-.collection-list {
-  margin: 0;
-  padding: 0;
-}
 
 .collection-list-item {
   position: relative;
@@ -277,7 +272,8 @@ body {
   cursor: pointer;
 }
 
-.overlay-icon:hover {
+.overlay-icon:hover,
+.overlay-icon:focus {
   background-color: rgb(26, 188, 156);
 }
 
@@ -303,11 +299,13 @@ body {
   background-color: rgb(50, 50, 50);
 }
 
-.collection-list-item:hover .product-features {
+.collection-list-item:hover .product-features,
+.collection-list-item:focus .product-features {
   background-color: rgb(26, 188, 156);
 }
 
-.collection-list-item:hover .overlay {
+.collection-list-item:hover .overlay,
+.collection-list-item:focus .overlay {
   opacity: 1;
   visibility: visible;
 }
@@ -360,7 +358,8 @@ body {
   color: rgb(70, 191, 169);
 }
 
-.author:hover {
+.author:hover,
+.author:focus {
   text-decoration: underline;
   color: rgb(26, 188, 156);
 }
