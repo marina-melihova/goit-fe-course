@@ -310,20 +310,20 @@ body {
 }
 
 .product-title-link {
-  float: left;
   display: block;
   padding: 5px 14px;
-  text-decoration: none;
-}
-
-.product-title {
-  margin: 0;
   color: rgb(255, 255, 255);
+  text-decoration: none;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 32px;
   font-weight: 900;
+}
+
+.product-title {
+  margin: 0;
+  float: left;
 }
 
 .product-price {
