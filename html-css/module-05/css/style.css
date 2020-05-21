@@ -280,6 +280,7 @@ body {
 .product-btn:hover,
 .product-btn:focus {
   background-color: rgb(26, 188, 156);
+  border-color: rgb(26, 188, 156);
 }
 
 .cart {
