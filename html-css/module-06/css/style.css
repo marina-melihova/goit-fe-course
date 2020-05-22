@@ -366,6 +366,7 @@ body {
   font-size: var(--h3-size);
   font-weight: 700;
   background-color: var(--theme-color);
+  cursor: pointer;
   transition: all 0.2s linear;
 }
 
