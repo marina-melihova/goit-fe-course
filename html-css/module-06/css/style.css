@@ -12,7 +12,6 @@
   --h2-size: 30px;
   --h3-size: 14px;
 }
-
 html {
   box-sizing: border-box;
 }
@@ -126,11 +125,11 @@ body {
 
 .section-header {
   text-align: center;
-  margin-bottom: 45px;
 }
 
 .section-title {
   margin-top: 0;
+  margin-bottom: 45px;
   text-transform: uppercase;
   color: var(--title-txt);
   font-family: var(--secondary-ff);
@@ -167,7 +166,7 @@ body {
 }
 
 .section-description {
-  padding: 0 125px 50px;
+  padding: 45px 125px 95px;
   line-height: 24px;
 }
 
