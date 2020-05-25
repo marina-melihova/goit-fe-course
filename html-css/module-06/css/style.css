@@ -230,6 +230,10 @@ body {
   justify-content: space-between;
 }
 
+.team-list-item {
+  width: 380px;
+}
+
 .team-image-wrapper {
   position: relative;
   transition: all 0.2s linear;
