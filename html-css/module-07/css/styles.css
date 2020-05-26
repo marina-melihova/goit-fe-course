@@ -267,7 +267,9 @@ img {
 }
 
 .form-feedback-input:required:focus:invalid:not(:placeholder-shown),
-.form-feedback-message:required:focus:invalid:not(:placeholder-shown) {
+.form-feedback-message:required:focus:invalid:not(:placeholder-shown),
+.form-feedback-input:required:invalid:not(:placeholder-shown),
+.form-feedback-message:required:invalid:not(:placeholder-shown) {
   border: 2px solid red;
 }
 
