@@ -54,7 +54,7 @@
   --dark-color: rgb(34, 34, 34);
   --light-color: rgb(255, 255, 255);
   --common-color: rgb(119, 119, 119);
-  --main-ff: "Montserrat";
+  --main-ff: "Montserrat", sans-serif;
 }
 html {
   box-sizing: border-box;
@@ -109,7 +109,7 @@ img {
 .logo {
   display: block;
   color: var(--primary-color);
-  font-family: "Thirsty Script";
+  font-family: "Thirsty Script", cursive;
   font-size: 1.8571rem;
   line-height: 1.577;
   letter-spacing: 0.5px;
@@ -154,7 +154,7 @@ img {
 
 .section-description {
   color: var(--common-color);
-  font-family: "Vollkorn";
+  font-family: "Vollkorn", cursive;
   font-size: 1.4286rem;
 }
 
@@ -204,7 +204,7 @@ img {
 
 .services-item-description {
   line-height: 1.8;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
 }
 
 /* Contact Us */
