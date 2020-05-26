@@ -254,6 +254,7 @@ img {
   border-width: 1px;
   border-color: rgb(204, 204, 204);
   border-radius: 2px;
+  color: #000;
 }
 
 :required:focus {
@@ -278,7 +279,7 @@ img {
   border-width: 1px;
   border-color: rgb(204, 204, 204);
   border-radius: 5px;
-  color: var(--common-color);
+  color: #000;
   resize: none;
 }
 
