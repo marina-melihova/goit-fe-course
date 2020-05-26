@@ -275,8 +275,7 @@ img {
 }
 
 .form-feedback-message {
-  padding-top: 20px;
-  padding-left: 20px;
+  padding: 20px;
   height: 215px;
   border-style: solid;
   border-width: 1px;
