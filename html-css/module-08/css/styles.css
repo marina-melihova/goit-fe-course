@@ -167,6 +167,10 @@ body {
   letter-spacing: -1px;
 }
 
+.wrap-xs {
+  display:block;
+}
+
 .header-description {
   margin-bottom: 18px;
   font-family: var(--secondary-font);
@@ -203,6 +207,9 @@ body {
   }
   .header-title {
     font-size: 52px;
+  }
+  .wrap-xs {
+    display: inline;
   }
   .header-description {
     margin-bottom: 40px;
