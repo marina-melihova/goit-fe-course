@@ -153,6 +153,11 @@ body {
   border-color: var(--light-color);
 }
 
+.header-content {
+  width: 300px;
+  margin: 0 auto;
+}
+
 .header-title {
   margin-top: 0;
   margin-bottom: 20px;
@@ -195,7 +200,6 @@ body {
 @media (min-width: 768px) {
   .header-content {
     width: 492px;
-    margin: 0 auto;
   }
   .header-title {
     font-size: 52px;
