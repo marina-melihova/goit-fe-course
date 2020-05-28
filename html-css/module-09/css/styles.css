@@ -161,7 +161,7 @@ body {
   background-position: top;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (orientation: portrait) {
   .hero {
     height: 100vh;
   }
